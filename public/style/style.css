@@ -1,0 +1,39 @@
+body{
+  font-family: Quicksand;
+}
+
+h1{
+}
+
+table{
+  border: 1pt black;
+}
+
+th{
+  position: sticky;
+  top: 0;
+  background: white;
+  font-weight: bold;
+}
+
+td {
+	max-width: 300px;
+	padding: 3px;
+  outline: 1px #f7f7f7 solid;
+}
+
+td.closed{
+  background: #de8585;
+}
+
+td.open{
+  background: #9ade85;
+}
+
+tr:hover{
+  background-color: #f7f7f7;
+}
+
+tr {
+	outline: 1pt black solid;
+}
